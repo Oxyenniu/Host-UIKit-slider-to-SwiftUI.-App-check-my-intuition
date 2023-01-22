@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E666E3BE297D824A0055A4C6 /* ButtonAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = E666E3BD297D82490055A4C6 /* ButtonAppearanceModifier.swift */; };
+		E666E3C0297D9EDD0055A4C6 /* UIKitSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E666E3BF297D9EDD0055A4C6 /* UIKitSliderView.swift */; };
 		E6E72C33297D560200B6E188 /* Host_UIKit_slider_to_SwiftUI__App_check_my_intuitionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E72C32297D560200B6E188 /* Host_UIKit_slider_to_SwiftUI__App_check_my_intuitionApp.swift */; };
 		E6E72C35297D560200B6E188 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E72C34297D560200B6E188 /* ContentView.swift */; };
 		E6E72C37297D560700B6E188 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E72C36297D560700B6E188 /* Assets.xcassets */; };
@@ -14,6 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E666E3BD297D82490055A4C6 /* ButtonAppearanceModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonAppearanceModifier.swift; sourceTree = "<group>"; };
+		E666E3BF297D9EDD0055A4C6 /* UIKitSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitSliderView.swift; sourceTree = "<group>"; };
 		E6E72C2F297D560200B6E188 /* Host UIKit slider to SwiftUI. App check my intuition.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Host UIKit slider to SwiftUI. App check my intuition.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E72C32297D560200B6E188 /* Host_UIKit_slider_to_SwiftUI__App_check_my_intuitionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Host_UIKit_slider_to_SwiftUI__App_check_my_intuitionApp.swift; sourceTree = "<group>"; };
 		E6E72C34297D560200B6E188 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +57,8 @@
 			children = (
 				E6E72C32297D560200B6E188 /* Host_UIKit_slider_to_SwiftUI__App_check_my_intuitionApp.swift */,
 				E6E72C34297D560200B6E188 /* ContentView.swift */,
+				E666E3BF297D9EDD0055A4C6 /* UIKitSliderView.swift */,
+				E666E3BD297D82490055A4C6 /* ButtonAppearanceModifier.swift */,
 				E6E72C36297D560700B6E188 /* Assets.xcassets */,
 				E6E72C38297D560700B6E188 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E666E3C0297D9EDD0055A4C6 /* UIKitSliderView.swift in Sources */,
+				E666E3BE297D824A0055A4C6 /* ButtonAppearanceModifier.swift in Sources */,
 				E6E72C35297D560200B6E188 /* ContentView.swift in Sources */,
 				E6E72C33297D560200B6E188 /* Host_UIKit_slider_to_SwiftUI__App_check_my_intuitionApp.swift in Sources */,
 			);
