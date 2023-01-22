@@ -19,12 +19,12 @@ struct ContentView: View {
             Text("Move the slider as close as possible to: \(targetValue)")
                 .font(.body)
             HStack {
-                Text("0")
+                Text("0").padding(.leading, 16)
                 UIKitSliderView(value: $currentValue, alpha: alpha)
                     .onChange(of: currentValue) { _ in
                         alpha = Double(computeScore()) / 100
                     }
-                Text("100")
+                Text("100").padding(.trailing, 16)
             }
             Button("Check result") {
                 showingAlert.toggle()
